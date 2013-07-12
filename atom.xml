@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Phil Sheard</title>
+ <link href="http://www.binaryheartbe.at/atom.xml" rel="self"/>
+ <link href="http://www.binaryheartbe.at/"/>
+ <updated>2013-01-20T16:06:26+11:00</updated>
+ <id>http://www.binaryheartbe.at/</id>
+ <author>
+   <name>Phil Sheard</name>
+ </author>
+
+ 
+ <entry>
+   <title>Workflow tip for anyone who writes for fun or money</title>
+   <link href="http://www.binaryheartbe.at/2013/01/20/sublime-text-markdown-pandoc-workflow.html"/>
+   <updated>2013-01-20T00:00:00+11:00</updated>
+   <id>http://www.binaryheartbe.at/2013/01/20/sublime-text-markdown-pandoc-workflow</id>
+   <content type="html">&lt;p&gt;I've got into the habit of using a simple text editor and the Markdown format for all my writing recently. However, I've never tried it with documents of more than 5 or so pages.&lt;/p&gt;
+
+&lt;p&gt;Today I spent a bit of time tinkering and put together this workflow:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.sublimetext.com/2&quot;&gt;Sublime Text 2&lt;/a&gt; for writing, enhanced by a good Markdown plugin. &lt;a href=&quot;http://ttscoff.github.com/MarkdownEditing&quot;&gt;MarkdownEditing&lt;/a&gt; is the one I use.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://johnmacfarlane.net/pandoc/&quot;&gt;Pandoc&lt;/a&gt; to enable conversion from Markdown to Microsoft's docx format&lt;/li&gt;
+&lt;li&gt;Finally &lt;a href=&quot;https://github.com/jclement/SublimePandoc&quot;&gt;Jeff Clement's great plugin&lt;/a&gt; for ST2 so you don't need to use Pandoc at the command line&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Write in Markdown and when the document is ready, export to .docx and Word's themes are already applied, ready to share.&lt;/p&gt;
+
+&lt;h3&gt;Going further&lt;/h3&gt;
+
+&lt;p&gt;If you use the native Markdown format for embedded images (keep them in the same folder for convenience) then these will also be embedded into the document, although they may need some resizing in the final edit.&lt;/p&gt;
+
+&lt;p&gt;Even better, if you later want to output to other formats (HTML, PDF, ebook) you can do that via Pandoc too.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>World leaders on Twitter, eh?</title>
+   <link href="http://www.binaryheartbe.at/2013/01/02/heads-of-state-on-twitter.html"/>
+   <updated>2013-01-02T00:00:00+11:00</updated>
+   <id>http://www.binaryheartbe.at/2013/01/02/heads-of-state-on-twitter</id>
+   <content type="html">&lt;p&gt;Spotted &lt;a href=&quot;http://techcrunch.com/2013/01/01/hail-to-the-tweet/&quot;&gt;this&lt;/a&gt; on TechCrunch today: number of world leaders using Twitter has grown to 75% from 42% a year ago.&lt;/p&gt;
+
+&lt;p&gt;Great news! Twitter is brilliant for breaking down boundaries and connecting public figures with their, well, publics. It's inspiring to see world leaders embracing new ways of communicating, cutting out the middleman and connecting directly through social networks.&lt;/p&gt;
+
+&lt;p&gt;It's a shame that the top two mentioned by TC haven't posted a single @reply on the first page of their results.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Obama&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/2013-01-02-obama-twitter.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Chavez&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/2013-01-02-chavez-twitter.png&quot;&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&quot;You know how some naysayers still like to dismiss Twitter as nothing more than a time wasting website where people talk about the sandwich they’re eating? Here’s another rebuttal for them.&quot; &lt;a href=&quot;http://techcrunch.com/2013/01/01/hail-to-the-tweet/&quot;&gt;Techcrunch&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Well, it's no good if there's no conversation. Such a missed opportunity.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

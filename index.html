@@ -1,60 +1,97 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Philsheard.github.com by philsheard</title>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>Our Hearts Beat In Binary</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Phil Sheard" />
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Philsheard.github.com</h1>
-        <p></p>
-
-
-        <p class="view"><a href="https://github.com/philsheard">View My GitHub Profile</a></p>
-
-      </header>
-      <section>
-        <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/bootstrap/css/bootstrap.css" type="text/css" media="screen, projection" />
+   <link rel="stylesheet" href="/css/custom.css" type="text/css" media="screen, projection" />
+   <link href="/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+   <!-- Typekit -->
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="span3 offset1" id="site-nav">
+        <h1>Our Hearts Beat In Binary</h1>
+      </div>
+      <div class="span7">
+        <div>
+          <div id="home">
+  <!-- <ul class="posts">-->
     
-  </body>
+      <!-- <li> -->
+      	<h2><a href="/2013/01/20/sublime-text-markdown-pandoc-workflow.html">Workflow tip for anyone who writes for fun or money</a>
+      	</h2>
+      <p>
+      	20 Jan 2013
+      </p>
+      <p>
+      	<p>I've got into the habit of using a simple text editor and the Markdown format for all my writing recently. However, I've never tried it with documents of more than 5 or so pages.</p>
+
+<p>Today I spent a bit of time tinkering and put together this workflow:</p>
+
+<ul>
+<li><a href="http://www.sublimetext.com/2">Sublime Text 2</a> for writing, enhanced by a good Markdown plugin. <a href="http://ttscoff.github.com/MarkdownEditing">MarkdownEditing</a> is the one I use.</li>
+<li><a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> to enable conversion from Markdown to Microsoft's docx format</li>
+<li>Finally <a href="https://github.com/jclement/SublimePandoc">Jeff Clement's great plugin</a> for ST2 so you don't need to use Pandoc at the command line</li>
+</ul>
+
+
+<p>Write in Markdown and when the document is ready, export to .docx and Word's themes are already applied, ready to share.</p>
+
+<h3>Going further</h3>
+
+<p>If you use the native Markdown format for embedded images (keep them in the same folder for convenience) then these will also be embedded into the document, although they may need some resizing in the final edit.</p>
+
+<p>Even better, if you later want to output to other formats (HTML, PDF, ebook) you can do that via Pandoc too.</p>
+
+      </p>
+      <!-- </li> -->
+    
+      <!-- <li> -->
+      	<h2><a href="/2013/01/02/heads-of-state-on-twitter.html">World leaders on Twitter, eh?</a>
+      	</h2>
+      <p>
+      	02 Jan 2013
+      </p>
+      <p>
+      	<p>Spotted <a href="http://techcrunch.com/2013/01/01/hail-to-the-tweet/">this</a> on TechCrunch today: number of world leaders using Twitter has grown to 75% from 42% a year ago.</p>
+
+<p>Great news! Twitter is brilliant for breaking down boundaries and connecting public figures with their, well, publics. It's inspiring to see world leaders embracing new ways of communicating, cutting out the middleman and connecting directly through social networks.</p>
+
+<p>It's a shame that the top two mentioned by TC haven't posted a single @reply on the first page of their results.</p>
+
+<p><strong>Obama</strong></p>
+
+<p><img src="/images/posts/2013-01-02-obama-twitter.png"></p>
+
+<p><strong>Chavez</strong></p>
+
+<p><img src="/images/posts/2013-01-02-chavez-twitter.png"></p>
+
+<blockquote><p>"You know how some naysayers still like to dismiss Twitter as nothing more than a time wasting website where people talk about the sandwich they’re eating? Here’s another rebuttal for them." <a href="http://techcrunch.com/2013/01/01/hail-to-the-tweet/">Techcrunch</a></p></blockquote>
+
+<p>Well, it's no good if there's no conversation. Such a missed opportunity.</p>
+
+      </p>
+      <!-- </li> -->
+    
+ <!-- </ul> -->
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Technology and life.</p>
+  </div>
+</body>
 </html>
